@@ -88,7 +88,7 @@ function keyGen(length = 1) {
   let key = "";
 
   for (let i = 0; i < +length; i++) {
-    const index = Math.floor(Math.random() * 83);
+    const index = Math.floor(Math.random() * (CHAR.length - 1));
     key = key + CHAR[index];
   }
   return key;
