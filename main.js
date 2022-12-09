@@ -84,7 +84,7 @@ function generatePopUp(msg) {
 //generating the key
 function keyGen(length = 1) {
   const CHAR =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHUJKLMNOPQRSTUVWXYZ!@#$%^&*()_+=0123456789/|-`',.?";
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHUJKLMNOPQRSTUVWXYZ!?&*_0123456789-,";
   let key = "";
 
   for (let i = 0; i < +length; i++) {
